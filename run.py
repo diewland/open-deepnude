@@ -20,7 +20,7 @@ class Options:
         O00OOOOOO00OO0O0O.input_nc = 3
         O00OOOOOO00OO0O0O.output_nc = 3
         O00OOOOOO00OO0O0O.serial_batches = True
-        O00OOOOOO00OO0O0O.nThreads = 1
+        O00OOOOOO00OO0O0O.nThreads = 0 #1 -- Broken Pipe
         O00OOOOOO00OO0O0O.max_dataset_size = 1
         O00OOOOOO00OO0O0O.netG = 'global'
         O00OOOOOO00OO0O0O.ngf = 64

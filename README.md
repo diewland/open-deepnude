@@ -1,3 +1,36 @@
+# No-GUI version
+
+### Requirements
+* Windows
+* python 3.6
+* input image 512x512 px
+
+### Installation
+```
+python -m venv venv
+venv\Scripts\activate.bat
+pip install -r requirements.txt
+```
+
+Install pytorch from https://pytorch.org/
+
+```
+pip3 install https://download.pytorch.org/whl/cpu/torch-1.1.0-cp36-cp36m-win_amd64.whl
+pip3 install https://download.pytorch.org/whl/cpu/torchvision-0.3.0-cp36-cp36m-win_amd64.whl
+```
+
+or CUDA version
+
+```
+pip3 install https://download.pytorch.org/whl/cu100/torch-1.1.0-cp36-cp36m-win_amd64.whl
+pip3 install https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp36-cp36m-win_amd64.whl
+```
+
+### That command
+```
+python test.py test.jpg
+```
+
 # Open DeepNude
 
 Hi everyone! Ever heard of [Streisand effect](https://en.wikipedia.org/wiki/Streisand_effect)? Once it's online it will be around forever.
