@@ -26,6 +26,8 @@ pip3 install https://download.pytorch.org/whl/cu100/torch-1.1.0-cp36-cp36m-win_a
 pip3 install https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp36-cp36m-win_amd64.whl
 ```
 
+You need to download models (pyqtlib/) from internet [manually](https://github.com/open-deepnude/open-deepnude/blob/master/README.md)
+
 ### That command
 ```
 python test.py test.jpg
